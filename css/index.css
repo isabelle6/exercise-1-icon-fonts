@@ -16,3 +16,17 @@ html {
 *, *:before, *:after {
 	box-sizing: inherit;
 }
+
+.btn {
+    font-size: 3em;
+    padding: .5em;
+    background-color: orange;
+    color: grey;
+    text-decoration: none;
+    vertical-align: middle;
+    border-radius: 50%;
+}
+
+.btn i {
+    vertical-align: middle;
+}
