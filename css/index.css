@@ -17,11 +17,26 @@ html {
 	box-sizing: inherit;
 }
 
+body {
+    background-color: #99cccc;
+}
+
+.everything {
+    text-align: center;
+}
+
+.title {
+    padding: .5em;
+    font-size: 3em;
+    font-family: "Roboto", sans-serif;
+}
+
 .btn {
     font-size: 3em;
     padding: .5em;
-    background-color: orange;
-    color: grey;
+    margin: .5em;
+    background-color: #cc6600;
+    color: black;
     text-decoration: none;
     vertical-align: middle;
     border-radius: 50%;
@@ -29,4 +44,26 @@ html {
 
 .btn i {
     vertical-align: middle;
+    text-align: center;
+}
+
+.btn:hover,
+.btn:active,
+.btn:focus {
+    background-color: #ffcc66;
+}
+
+.btn:hover
+.icon-rock {
+    color: grey;
+}
+
+.btn:hover
+.icon-paper {
+    color: white;
+}
+
+.btn:hover
+.icon-scissors {
+    color: #3399cc;
 }
